@@ -92,3 +92,7 @@ TEMPLATE_DIRS = [BASE_DIR.child('templates')]
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/pp/app/static/'
+
+MEDIA_ROOT = '/home/pp/app/media/'
+MEDIA_URL = '/media/'
