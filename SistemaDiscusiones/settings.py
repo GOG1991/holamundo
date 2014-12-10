@@ -66,8 +66,8 @@ WSGI_APPLICATION = 'SistemaDiscusiones.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'baseprueba1',
-        'USER': 'user1',
+        'NAME': 'baseprueba2',
+        'USER': 'user2',
         'PASSWORD': 'aBcDe123',
         'HOST': 'localhost',
     }
@@ -92,6 +92,7 @@ TEMPLATE_DIRS = [BASE_DIR.child('templates')]
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR.child('static')]
 STATIC_ROOT = '/home/pp/app/static/'
 
 MEDIA_ROOT = '/home/pp/app/media/'
